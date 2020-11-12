@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Hyggemarked</h1>
+    <p class="lead">Leje af udstyr og værktøj</p>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <p>Se listen af udstyr som er tilgængeligt</p>
+        @Html.ActionLink("Alt udstyr", "Index", "Hardwares")
+    </div>
+    <div class="col-sm-6">
+        <p>Log ind og lej udstyr. Det kan afhentes alle dage kl 10</p>
+        @Html.ActionLink("Lej udstyr", "Index", "Rentals")
+    </div>
+</div>
