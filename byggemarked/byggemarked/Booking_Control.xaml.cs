@@ -36,7 +36,7 @@ namespace byggemarked
             {
                 var rentals = ctx.Rentals
                     .Where(r => r.CustomerId == id)
-                    .OrderBy(r => r.StartDate)
+                    .OrderByDescending(r => r.StartDate)
                     .ToList();
 
                 if (rentals.Count > 0)
