@@ -1,9 +1,4 @@
-﻿CREATE DATABASE byggemarked;
-
--- Kør: 'Update-Database' i entity framework console
--- Eller start WPF applikationen og Entity framework vil køre dens migrations
-
-INSERT INTO dbo.Customers
+﻿INSERT INTO dbo.Customers
 VALUES
 ('Viggo Petersen', 'Test vej', 'viggo@email.com', 'viggo', '12345'),
 ('Martin Skov', 'Test vej', 'martin@email.com', 'martin', 'asdfg');
